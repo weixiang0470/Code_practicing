@@ -7,6 +7,7 @@
 - The matching should cover the entire input string (not partial).
 
 ### Explaination
+- Optimal substructure : If $s_i$ matched $p_{j}$ required $s_{i-1}$ matched $p_{j-1}$
 - $dp[i][j] ==> s[0...i_{-1}]$ matched with $p[0...j_{-1}]$ ?
 - Base case : $dp[0][0] = True$
     - **Empty String** matched **Empty Expression**
